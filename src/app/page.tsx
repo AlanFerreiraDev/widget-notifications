@@ -1,5 +1,9 @@
 import { Widget } from '@/components/Widget'
 
 export default function Home() {
-  return <Widget />
+  return (
+    <main className="h-screen bg-zinc-50 dark:bg-black flex items-center justify-center text-zinc-50">
+      <Widget />
+    </main>
+  )
 }
